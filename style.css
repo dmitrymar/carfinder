@@ -1,0 +1,6 @@
+ul {
+  list-style:none;
+  display:block;
+  overflow:hidden;
+}
+li {float:left;}
