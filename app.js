@@ -1,5 +1,5 @@
 (function ($) {
-
+console.log("hey")
 var dataURL = 'http://www.carqueryapi.com/api/0.3/?callback=?', 
 $carYears = $("#car-years"),
 $carMakes = $("#car-makes"),
@@ -89,6 +89,8 @@ $("#car-model-trims").append("<option value='"+trim+"'>"+trim+"</option>");
   
 
   function populateMake(e) {
+        console.log("populate make")
+
 var yearSelected = $(e.target).val();
     selectedItems.year = yearSelected;
 $("#car-model-trims").empty();
